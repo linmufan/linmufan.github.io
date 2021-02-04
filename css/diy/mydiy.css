@@ -1,0 +1,76 @@
+
+
+/* 5.�������Ż� =============================================================*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(55, 99, 106, 0.699);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fc0a33d5;
+    background-image: -webkit-linear-gradient(45deg,
+            rgba(198, 228, 28, 0.4) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(172, 156, 7, 0.4) 50%,
+            rgba(248, 244, 19, 0.84) 75%,
+            transparent 75%,
+            transparent);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #ec29f3;
+}
+
+/* end=================================================== */
+
+
+
+/* 9.mdͼƬ��ʽ =======================================*/
+img[src*='#img-radius'] {
+    border-radius: 9px;
+}
+/* ��ͼƬ��Բ�� */
+img{
+    border-radius: 9px;
+}
+/* ���������ʾ��ɫ�߿� */
+img:hover{
+    box-shadow: 0 0px 10px 5px #22ec2c;
+}
+#article-container figure.highlight:hover{
+    box-shadow: 0 0px 10px 5px #deec22;
+}
+/* end==================================================== */
+
+
+
+/* 12.���±��⽥�� ===================================== */
+.content .post-title  {
+    background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+ 
